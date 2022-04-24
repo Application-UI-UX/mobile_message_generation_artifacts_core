@@ -5,7 +5,7 @@
 
   <groupId>org.ros</groupId>
   <artifactId>rosjava_messages</artifactId>
-  <version>1.2.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
 
@@ -19,7 +19,7 @@
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub noetic rosjava_messages</name>
+      <name>GitHub Application-UI-UX Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/Application-UI-UX/rosjava_messages</url>
     </repository>
   </distributionManagement>
