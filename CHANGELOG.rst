@@ -3,7 +3,7 @@ Changelog
 
 Noetic 0.0.1 (2021-05-23)
 ------------------
-* update for Noetic release
+* updates for Noetic release Testing
 
 0.3.0 (2016-12-15)
 ------------------
