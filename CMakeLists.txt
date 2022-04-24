@@ -36,7 +36,6 @@ generate_rosjava_messages(
   scheduler_msgs
   move_base_msgs           # ros-planning/navigation
   map_store                # ros-planning/map_store
-  
   roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
 )
 
