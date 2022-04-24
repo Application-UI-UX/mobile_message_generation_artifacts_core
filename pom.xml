@@ -5,7 +5,7 @@
 
   <groupId>org.ros</groupId>
   <artifactId>rosjava_messages</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.4.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
 
