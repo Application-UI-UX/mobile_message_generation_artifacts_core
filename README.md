@@ -27,8 +27,3 @@ require a rebuild of this package:
 * update the changelog and bump the version number in package.xml
 * tag it with the new version number
 * release
-
-### More Information
-
-* [RosJava Message Artifacts](http://wiki.ros.org/rosjava/Tutorials/indigo/RosJava Message Artifacts)
-
