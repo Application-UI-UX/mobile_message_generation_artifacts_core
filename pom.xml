@@ -46,10 +46,10 @@
 
 
   <scm>
-    <connection>scm:git:https://github.com/Application-UI-UX/rosjava_messages.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/Application-UI-UX/rosjava_messages.git</developerConnection>
-    <url>https://github.com/Application-UI-UX/rosjava_messages</url>
-    <tag>0.4.0</tag>
+    <connection>scm:git:https://github.com/Application-UI-UX/rosjava_messages.git/tags/rosjava_messages-0.4.0</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Application-UI-UX/rosjava_messages.git/tags/rosjava_messages-0.4.0</developerConnection>
+    <url>https://github.com/Application-UI-UX/rosjava_messages/tags/rosjava_messages-0.4.0</url>
+    <tag>rosjava_messages-0.4.0</tag>
   </scm>
 
 
