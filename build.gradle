@@ -1,5 +1,10 @@
+wrapper {
+    gradleVersion = "7.2.0"
+    distributionUrl = distributionUrl.replace("bin", "all")
+}
+
 apply plugin: 'java'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'org.ros'
 version = '0.4.0'
@@ -12,10 +17,7 @@ tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
 }
 
-
-
 repositories {
-        
      maven { url "https://repo1.maven.org/maven2" }
      maven { url "https://maven.pkg.github.com/Application-UI-UX/rosjava_bootstrap" }
 }
