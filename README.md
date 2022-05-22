@@ -1,9 +1,10 @@
 ## RosJava Messages
 
 This package is a generator of rosjava message artifacts for core ros messages.
+Latest versions and Maintainer is on Application-UI-UX
 
 ### Building and Packaging
-
+The package is published in https://github.com/Application-UI-UX
 
 ### Adding Packages
 
@@ -12,9 +13,11 @@ if it is a worthwhile candidate:
 
 * It is a direct dependency for rosjava/android
 * It is a popular and stable dependency that will require little maintenance
+* Latest versions are on Application-UI-UX and it is noetic
 
 Then to actually add the dependency:
 
+* new release versions are noetic
 * add the message dependency to package.xml
 * add the message dependency to CMakeLists.txt
 * create a pull request
