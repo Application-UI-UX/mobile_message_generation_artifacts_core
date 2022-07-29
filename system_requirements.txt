@@ -27,7 +27,6 @@ wget
 zip
 zlib1g-dev
 python3-distutils
-        
 neovim
 libc6:i386 
 libncurses5:i386 

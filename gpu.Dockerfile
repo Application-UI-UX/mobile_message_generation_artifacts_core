@@ -13,6 +13,9 @@ ENV LD_LIBRARY_PATH /usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 ARG ROS_ARCHITECTURE_VERSION_GIT_BRANCH=master
 ARG ROS_ARCHITECTURE_VERSION_GIT_COMMIT=HEAD
 
+ARG ANDROID_STUDIO_URL=https://dl.google.com/dl/android/studio/ide-zips/3.5.3.0/android-studio-ide-191.6010548-linux.tar.gz
+ARG ANDROID_STUDIO_VERSION=3.5
+
 LABEL maintainer=ronaldsonbellande@gmail.com
 LABEL ROS_architecture_github_branchtag=${ROS_ARCHITECTURE_VERSION_GIT_BRANCH}
 LABEL ROS_architecture_github_commit=${ROS_ARCHITECTURE_VERSION_GIT_COMMIT}
@@ -33,6 +36,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends <system_require
   && apt-get upgrade -y \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && apt-get install -y wget 
+RUN wget "$ANDROID_STUDIO_URL" -O android-studio.tar.gz
+RUN tar xzvf android-studio.tar.gz
+RUN rm android-studio.tar.gz
 
 # Install python 3.8 and make primary 
 RUN apt-get update && apt-get install -y \
@@ -70,8 +78,14 @@ RUN echo "source /usr/local/bin/catkin_setup.sh" >> /root/.bashrc
 COPY catkin_setup.sh /usr/local/bin/catkin_setup.sh
 RUN chmod +x /usr/local/bin/catkin_setup.sh
 
+RUN ln -s /studio-data/profile/AndroidStudio$ANDROID_STUDIO_VERSION .AndroidStudio$ANDROID_STUDIO_VERSION
+RUN ln -s /studio-data/Android Android
+RUN ln -s /studio-data/profile/android .android
+RUN ln -s /studio-data/profile/java .java
+RUN ln -s /studio-data/profile/gradle .gradle
+ENV ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
+
 ENTRYPOINT ["/usr/local/bin/catkin_setup.sh"]
-CMD ["bash"]
 
 RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub && \
   apt-get update && apt-get install -y --no-install-recommends \
@@ -88,3 +102,4 @@ RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/machi
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*;
 
+CMD ["bash"]
