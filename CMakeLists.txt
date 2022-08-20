@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(rosjava_messages)
 
-find_package(catkin REQUIRED genjava)
+find_package(catkin REQUIRED COMPONENTS genjava)
 
 generate_rosjava_messages(
   PACKAGES
