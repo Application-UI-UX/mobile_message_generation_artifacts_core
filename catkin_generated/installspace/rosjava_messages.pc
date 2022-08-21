@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rosjava_messages
+Description: Description of rosjava_messages
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

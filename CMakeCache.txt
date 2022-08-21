@@ -23,6 +23,13 @@ BUILD_SHARED_LIBS:BOOL=ON
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
 
+//path to which gradle configuration and artifacts are deployed
+// in your workspace
+CATKIN_GLOBAL_GRADLE_DESTINATION:PATH=share/gradle
+
+//path to which maven artifacts are deployed in your workspace
+CATKIN_GLOBAL_MAVEN_DESTINATION:PATH=share/maven
+
 //Prefix to apply to package generated via gendebian
 CATKIN_PACKAGE_PREFIX:STRING=
 
@@ -370,8 +377,26 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/noetic/share/geneus/cmake
+
 //The directory containing a CMake configuration file for genjava.
-genjava_DIR:PATH=genjava_DIR-NOTFOUND
+genjava_DIR:PATH=/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/genjava/devel/share/genjava/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/noetic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/noetic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/gtest/googlemock
@@ -418,6 +443,9 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//The directory containing a CMake configuration file for rosjava_build_tools.
+rosjava_build_tools_DIR:PATH=/usr/local/share/rosjava_build_tools/cmake
 
 //Value Computed by CMake
 rosjava_messages_BINARY_DIR:STATIC=/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages
