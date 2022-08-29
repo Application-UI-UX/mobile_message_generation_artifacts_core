@@ -8,8 +8,10 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda-11.0/lib64:/usr/local/cuda/lib64:/usr/local/cuda-11.0/lib64'
-export PATH='/opt/ros/noetic/bin:/home/ronaldsonbellande-hplaptop/.local/bin:/home/ronaldsonbellande-hplaptop/.local/bin:/opt/gradle/gradle-7.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export LD_LIBRARY_PATH="/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_MAVEN_DEPLOYMENT_REPOSITORY=''
+export ROS_MAVEN_PATH=''
+export ROS_MAVEN_REPOSITORY=''
 export ROS_PACKAGE_PATH="/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages:$ROS_PACKAGE_PATH"

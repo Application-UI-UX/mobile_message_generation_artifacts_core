@@ -10,10 +10,10 @@
   <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
   <author>Daniel Stonier</author>
   <author>Damon Kohler</author>
+  <author>Ronaldson Bellande</author>
   <license>Apache 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-
 
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>genjava</build_depend>
@@ -49,7 +49,6 @@
   <build_depend>move_base_msgs</build_depend> <!-- ros-planning/navigation -->
   <build_depend>roscpp</build_depend> <!-- ros-planning/navigation -->
 
-
   <build_export_depend>rosjava_build_tools</build_export_depend>
   <build_export_depend>genjava</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
@@ -83,7 +82,6 @@
   <build_export_depend>map_store</build_export_depend> <!--  ros-planning/map_store -->
   <build_export_depend>move_base_msgs</build_export_depend> <!--  ros-planning/navigation -->
   <build_export_depend>roscpp</build_export_depend> <!--  ros-planning/navigation -->
-
 
   <exec_depend>rosjava_build_tools</exec_depend>
   <exec_depend>genjava</exec_depend>
