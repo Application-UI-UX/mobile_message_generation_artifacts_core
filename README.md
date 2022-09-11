@@ -1,8 +1,8 @@
 ## RosJava Messages
 
-Updated Version [rosjava_core](https://github.com/Application-UI-UX/rosjava_messages) readme.
+Updated Version [rosjava_messages](https://github.com/Application-UI-UX/rosjava_messages) readme.
 
-Standard Version [rosjava_core](https://github.com/rosjava/rosjava_messages) readme.
+Standard Version [rosjava_messages](https://github.com/rosjava/rosjava_messages) readme.
 
 This package is a generator of rosjava message artifacts for core ros messages.
 Latest versions and Maintainer is on Application-UI-UX
