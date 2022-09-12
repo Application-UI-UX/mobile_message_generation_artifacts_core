@@ -42,6 +42,6 @@ generate_rosjava_messages(
 catkin_package()
 
 install(
-  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/
-  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages
+  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosjava_messages/
+  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosjava_messages
 )
