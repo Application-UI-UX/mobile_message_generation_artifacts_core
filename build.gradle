@@ -6,23 +6,19 @@ wrapper {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-group = 'com.github.Application-UI-UX:rosjava_messages'
-version = '0.4.0'
-
-sourceCompatibility = 1.5
-targetCompatibility = 1.5
-
-tasks.withType(JavaCompile) {
-	options.encoding = 'UTF-8'
-}
 allprojects {
+    group = 'com.github.Application-UI-UX'
+    version = '0.4.0'
     repositories {
         mavenCentral()
-        maven { url "https://repo1.maven.org/maven2" }
-        maven { url "https://jitpack.io" }
+        maven { url = "https://jitpack.io" }
+        maven { url = "https://repo1.maven.org/maven2" }
+        mavenLocal()
+        maven { url = "https://repo.maven.apache.org/maven2" }
+        maven { url = "https://jcenter.bintray.com" }
+        google()
     }
 }
-
 dependencies {
     implementation 'com.github.Application-UI-UX:rosjava_build_tools:0.4.0'
     implementation 'com.github.Application-UI-UX:genjava:0.4.0'
