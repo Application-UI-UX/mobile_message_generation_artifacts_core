@@ -6,7 +6,7 @@ wrapper {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-group = 'com.github'
+group = 'com.github.Application-UI-UX:rosjava_messages'
 version = '0.4.0'
 
 sourceCompatibility = 1.5
