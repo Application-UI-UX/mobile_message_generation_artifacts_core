@@ -1,12 +1,18 @@
+/*
+Maintainer
+Ronaldson Bellande
+*/
+
 wrapper {
     gradleVersion = "7.2.0"
     distributionUrl = distributionUrl.replace("bin", "all")
 }
 
-apply plugin: 'java'
-apply plugin: 'maven-publish'
-
 allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+    group 'com.github.Application-UI-UX'
+    version '0.4.0'
     repositories {
         maven {
             url = "https://jitpack.io"
