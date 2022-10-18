@@ -31,3 +31,7 @@ dependencies {
     implementation 'com.github.Application-UI-UX:rosjava_build_tools:0.4.0'
     implementation 'com.github.Application-UI-UX:genjava:0.4.0'
 }
+
+task clean_project(type: Delete) {
+    delete rootProject.buildDir
+}
