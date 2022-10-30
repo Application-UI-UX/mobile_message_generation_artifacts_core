@@ -26,8 +26,8 @@ buildscript {
 }
 
 plugins {
-    id "com.android.application" version '7.1.0' apply false
-    id 'com.android.library' version '7.1.0' apply false
+    id "com.android.application" version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
 }
 
 allprojects {
@@ -47,6 +47,10 @@ allprojects {
         mavenLocal()
         google()
     }
+//    dependencies {
+//        compile 'com.github.Application-UI-UX:rosjava_build_tools:0.4.0'
+//        compile 'com.github.Application-UI-UX:genjava:0.4.0'
+//    }
 }
 
 task clean(type: Delete) {

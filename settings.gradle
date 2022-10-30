@@ -37,5 +37,4 @@ dependencyResolutionManagement {
     }
 }
 
-include "app"
 rootProject.name='rosjava_messages'
