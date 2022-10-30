@@ -8,6 +8,7 @@ This package is a generator of rosjava message artifacts for core ros messages.
 Latest versions and Maintainer is on Application-UI-UX
 
 ### Building and Packaging
+
 The package is published in https://github.com/Application-UI-UX
 
 ### Adding Packages
@@ -29,6 +30,14 @@ Then to actually add the dependency:
 * tag it with the new version number
 * release
 
+### React Implementation, Android NDK
+
+sudo npm install -g npm@8.19.2
+
+npm install --save github:facebook/react-native
+
+http://dl.google.com/android/repository/android-ndk-r10e-linux-x86_64.zip
+
 ### Rereleasing Version Changes
 
 When the underlying message dependency version numbers shift, this will
@@ -39,4 +48,5 @@ require a rebuild of this package:
 * release
 
 ### Maintainer
+
 * Ronaldson Bellande
