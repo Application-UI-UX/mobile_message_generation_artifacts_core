@@ -1,6 +1,6 @@
 ## RosJava Messages
 
-Updated Version [rosjava_messages](https://github.com/Application-UI-UX/rosjava_messages) readme.
+Updated Version [rosmobile_messages](https://github.com/Application-UI-UX/rosjava_messages) readme.
 
 Standard Version [rosjava_messages](https://github.com/rosjava/rosjava_messages) readme.
 

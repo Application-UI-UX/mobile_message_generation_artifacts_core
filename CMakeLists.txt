@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(rosjava_messages)
+project(rosmobile_messages)
 
-find_package(catkin REQUIRED COMPONENTS genjava)
+find_package(catkin REQUIRED COMPONENTS genmobile)
 
-generate_rosjava_messages(
+generate_rosmobile_messages(
   PACKAGES
   std_msgs
   rosgraph_msgs            # ros/ros_comm_msgs
   std_srvs
-  rosjava_test_msgs        # rosjava/rosjava_test_msgs
+  rosmobile_test_msgs        # rosjava/rosjava_test_msgs
   actionlib_msgs           # ros/common_msgs
   common_msgs
   diagnostic_msgs
@@ -42,6 +42,6 @@ generate_rosjava_messages(
 catkin_package()
 
 install(
-  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosjava_messages/
-  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosjava_messages
+  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosmobile_messages/
+  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosmobile_messages
 )
