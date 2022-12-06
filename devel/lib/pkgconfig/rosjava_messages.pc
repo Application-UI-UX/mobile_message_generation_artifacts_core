@@ -1,7 +1,7 @@
-prefix=/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosjava_messages/devel
+prefix=/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/devel
 
-Name: rosjava_messages
-Description: Description of rosjava_messages
+Name: rosmobile_messages
+Description: Description of rosmobile_messages
 Version: 0.4.0
 Cflags: 
 Libs: -L${prefix}/lib 

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>rosjava_messages</name>
+  <name>rosmobile_messages</name>
   <version>0.4.0</version>
   <description>Message generation for rosjava.</description>
-  <url type="website">http://ros.org/wiki/rosjava_messages</url>
-  <url type="repository">https://github.com/rosjava/rosjava_messages</url>
-  <url type="bugtracker">https://github.com/rosjava/rosjava_messages/issues</url>
+  <url type="website">http://ros.org/wiki/rosmobile_messages</url>
+  <url type="repository">https://github.com/rosjava/rosmobile_messages</url>
+  <url type="bugtracker">https://github.com/rosjava/rosmobile_messages/issues</url>
 
   <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
   <author>Daniel Stonier</author>

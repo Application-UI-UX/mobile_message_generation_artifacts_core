@@ -37,4 +37,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name='rosjava_messages'
+rootProject.name='rosmobile_messages'
