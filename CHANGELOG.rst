@@ -23,7 +23,7 @@ Noetic 0.0.1 (2021-05-23)
 0.2.1 (2015-02-25)
 ------------------
 * workaround for move_base_msgs (add roscpp as a msg package).
-* dependencies for builds of rosjava/android core and android interactions added.
+* dependencies for builds of rosmobile/android core and android interactions added.
 * restructured as a meta-message artifact generator of core messages only for indigo.
 * Contributors: Daniel Stonier, Martin Pecka
 
@@ -120,4 +120,4 @@ Noetic 0.0.1 (2021-05-23)
 0.1.7 (2013-09-13)
 ------------------
 * first release that has done a full scrape of rosdistro for 'official messages'.
-* rosjava's test_ros messages bundled here as a sub-packages (somewhat dirtily).
+* rosmobile's test_ros messages bundled here as a sub-packages (somewhat dirtily).

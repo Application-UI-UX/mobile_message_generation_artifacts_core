@@ -18,7 +18,7 @@ file(REMOVE_RECURSE
   "rocon_tutorial_msgs"
   "roscpp"
   "rosgraph_msgs"
-  "rosjava_test_msgs"
+  "rosmobile_test_msgs"
   "scheduler_msgs"
   "sensor_msgs"
   "shape_msgs"

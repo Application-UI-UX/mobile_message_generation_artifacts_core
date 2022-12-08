@@ -2,5 +2,5 @@
 .gitignore
 build
 *_msgs*
-!rosjava_test_msgs
+!rosmobile_test_msgs
 map_store

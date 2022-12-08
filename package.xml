@@ -2,10 +2,10 @@
 <package format="2">
   <name>rosmobile_messages</name>
   <version>0.4.0</version>
-  <description>Message generation for rosjava.</description>
+  <description>Message generation for rosmobile.</description>
   <url type="website">http://ros.org/wiki/rosmobile_messages</url>
-  <url type="repository">https://github.com/rosjava/rosmobile_messages</url>
-  <url type="bugtracker">https://github.com/rosjava/rosmobile_messages/issues</url>
+  <url type="repository">https://github.com/rosmobile/rosmobile_messages</url>
+  <url type="bugtracker">https://github.com/rosmobile/rosmobile_messages/issues</url>
 
   <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
   <author>Daniel Stonier</author>
@@ -15,12 +15,12 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>rosjava_build_tools</build_depend>
+  <build_depend>rosmobile_build_tools</build_depend>
   <build_depend>genjava</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend> <!-- ros/ros_comm_msgs -->
   <build_depend>std_srvs</build_depend>
-  <build_depend>rosjava_test_msgs</build_depend> <!--  rosjava/rosjava_test_msgs -->
+  <build_depend>rosmobile_test_msgs</build_depend> <!--  rosmobile/rosmobile_test_msgs -->
   <build_depend>actionlib_msgs</build_depend> <!--  ros/common_msgs -->
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
@@ -49,12 +49,12 @@
   <build_depend>move_base_msgs</build_depend> <!-- ros-planning/navigation -->
   <build_depend>roscpp</build_depend> <!-- ros-planning/navigation -->
 
-  <build_export_depend>rosjava_build_tools</build_export_depend>
+  <build_export_depend>rosmobile_build_tools</build_export_depend>
   <build_export_depend>genjava</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>rosgraph_msgs</build_export_depend> <!--  ros/ros_comm_msgs -->
   <build_export_depend>std_srvs</build_export_depend>
-  <build_export_depend>rosjava_test_msgs</build_export_depend> <!--  rosjava/rosjava_test_msgs -->
+  <build_export_depend>rosmobile_test_msgs</build_export_depend> <!--  rosmobile/rosmobile_test_msgs -->
   <build_export_depend>actionlib_msgs</build_export_depend> <!--  ros/common_msgs -->
   <build_export_depend>diagnostic_msgs</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
@@ -83,12 +83,12 @@
   <build_export_depend>move_base_msgs</build_export_depend> <!--  ros-planning/navigation -->
   <build_export_depend>roscpp</build_export_depend> <!--  ros-planning/navigation -->
 
-  <exec_depend>rosjava_build_tools</exec_depend>
+  <exec_depend>rosmobile_build_tools</exec_depend>
   <exec_depend>genjava</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>rosgraph_msgs</exec_depend> <!--  ros/ros_comm_msgs -->
   <exec_depend>std_srvs</exec_depend>
-  <exec_depend>rosjava_test_msgs</exec_depend> <!--  rosjava/rosjava_test_msgs -->
+  <exec_depend>rosmobile_test_msgs</exec_depend> <!--  rosmobile/rosmobile_test_msgs -->
   <exec_depend>actionlib_msgs</exec_depend> <!--  ros/common_msgs -->
   <exec_depend>diagnostic_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
