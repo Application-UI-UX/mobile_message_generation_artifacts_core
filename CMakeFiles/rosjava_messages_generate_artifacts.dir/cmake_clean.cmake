@@ -18,7 +18,7 @@ file(REMOVE_RECURSE
   "rocon_tutorial_msgs"
   "roscpp"
   "rosgraph_msgs"
-  "rosjava_test_msgs"
+  "rosmobile_test_msgs"
   "scheduler_msgs"
   "sensor_msgs"
   "shape_msgs"
@@ -31,10 +31,10 @@ file(REMOVE_RECURSE
   "visualization_msgs"
   "world_canvas_msgs"
   "yocs_msgs"
-  "CMakeFiles/rosjava_messages_generate_artifacts"
+  "CMakeFiles/rosmobile_messages_generate_artifacts"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )
-  include(CMakeFiles/rosjava_messages_generate_artifacts.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/rosmobile_messages_generate_artifacts.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

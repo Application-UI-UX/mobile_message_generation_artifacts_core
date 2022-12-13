@@ -8,7 +8,7 @@ generate_rosmobile_messages(
   std_msgs
   rosgraph_msgs            # ros/ros_comm_msgs
   std_srvs
-  rosmobile_test_msgs        # rosjava/rosjava_test_msgs
+  rosmobile_test_msgs        # rosmobile/rosmobile_test_msgs
   actionlib_msgs           # ros/common_msgs
   common_msgs
   diagnostic_msgs
