@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages
+CMAKE_SOURCE_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages
+CMAKE_BINARY_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/CMakeFiles /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core/CMakeFiles /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -233,17 +233,17 @@ doxygen/fast:
 .PHONY : doxygen/fast
 
 #=============================================================================
-# Target rules for targets named rosmobile_messages_generate_artifacts
+# Target rules for targets named mobile_message_generation_artifacts_core_generate_artifacts
 
 # Build rule for target.
-rosmobile_messages_generate_artifacts: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosmobile_messages_generate_artifacts
-.PHONY : rosmobile_messages_generate_artifacts
+mobile_message_generation_artifacts_core_generate_artifacts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mobile_message_generation_artifacts_core_generate_artifacts
+.PHONY : mobile_message_generation_artifacts_core_generate_artifacts
 
 # fast build rule for target.
-rosmobile_messages_generate_artifacts/fast:
-	$(MAKE) -f CMakeFiles/rosmobile_messages_generate_artifacts.dir/build.make CMakeFiles/rosmobile_messages_generate_artifacts.dir/build
-.PHONY : rosmobile_messages_generate_artifacts/fast
+mobile_message_generation_artifacts_core_generate_artifacts/fast:
+	$(MAKE) -f CMakeFiles/mobile_message_generation_artifacts_core_generate_artifacts.dir/build.make CMakeFiles/mobile_message_generation_artifacts_core_generate_artifacts.dir/build
+.PHONY : mobile_message_generation_artifacts_core_generate_artifacts/fast
 
 #=============================================================================
 # Target rules for targets named run_tests
@@ -322,7 +322,7 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
-	@echo "... rosmobile_messages_generate_artifacts"
+	@echo "... mobile_message_generation_artifacts_core_generate_artifacts"
 	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"

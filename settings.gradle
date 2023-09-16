@@ -37,4 +37,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name='rosmobile_messages'
+rootProject.name='mobile_message_generation_artifacts_core'
