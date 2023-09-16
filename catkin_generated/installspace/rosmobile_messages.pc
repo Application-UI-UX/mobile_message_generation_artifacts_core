@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: rosmobile_messages
-Description: Description of rosmobile_messages
-Version: 0.4.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: mobile_message_generation_artifacts_core
+Description: Description of mobile_message_generation_artifacts_core
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

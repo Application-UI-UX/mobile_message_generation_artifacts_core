@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(rosmobile_messages)
+project(mobile_message_generation_artifacts_core)
 
 find_package(catkin REQUIRED COMPONENTS genmobile)
 
-generate_rosmobile_messages(
+generate_mobile_message_generation_artifacts_core(
   PACKAGES
   std_msgs
   rosgraph_msgs            # ros/ros_comm_msgs
@@ -42,6 +42,6 @@ generate_rosmobile_messages(
 catkin_package()
 
 install(
-  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosmobile_messages/
-  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/rosmobile_messages
+  DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/mobile_message_generation_artifacts_core/
+  DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/github/mobile_message_generation_artifacts_core
 )

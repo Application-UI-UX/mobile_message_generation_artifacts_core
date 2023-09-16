@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages
+CMAKE_SOURCE_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages
+CMAKE_BINARY_DIR = /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core /home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

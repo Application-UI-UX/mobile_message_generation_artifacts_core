@@ -21,7 +21,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.0'
-        classpath 'com.github.Application-UI-UX:genjava:0.4.0'
+        classpath 'com.github.Application-UI-UX:genmobile:0.4.0'
     }
 }
 
@@ -49,7 +49,7 @@ allprojects {
     }
 //    dependencies {
 //        compile 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.0'
-//        compile 'com.github.Application-UI-UX:genjava:0.4.0'
+//        compile 'com.github.Application-UI-UX:genmobile:0.4.0'
 //    }
 }
 

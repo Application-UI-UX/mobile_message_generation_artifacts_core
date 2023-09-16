@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/rosmobile_messages/gtest/googlemock/cmake_install.cmake")
+  include("/home/ronaldsonbellande-hplaptop/Desktop/User_Interface_Experience/mobile_message_generation_artifacts_core/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

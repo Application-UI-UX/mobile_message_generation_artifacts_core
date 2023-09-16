@@ -1,9 +1,20 @@
 Changelog
 =========
 
+0.4.1 (2023-09-15)
+------------------
+* Fix countless bugs in the repository 
+* Rerelease dedicated code for maven, ros, and python
+* Change name for more discriptions a take down old publish namees
+* Make repository compatible with ROS2 and will now be compatible for ROS1 and ROS2
+* Upgrade version of all builds and make it more compatible
+* Fix countless bugs in the repository and recalibrate
+* Release dedicated code for maven, ros, and python 
+* Maintainer & Contributors & Aurthor: Ronaldson Bellande
+
 0.4.0 (2021-05-19)
 ------------------
-* Update package.xml, CMakeList.txt for noetic branch
+* Update package.xml, CMakeList.txt for main branch
 * Update gradle and wapper to be up-to-date
 * Fix Bugs that has to do with the gradle building
 * Contributors: Ronaldson Bellande
@@ -26,7 +37,6 @@ Noetic 0.0.1 (2021-05-23)
 * dependencies for builds of rosmobile/android core and android interactions added.
 * restructured as a meta-message artifact generator of core messages only for indigo.
 * Contributors: Daniel Stonier, Martin Pecka
-
 
 0.1.52 (2013-12-26)
 -------------------
