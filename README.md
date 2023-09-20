@@ -1,20 +1,24 @@
 ## ROS Mobile Message Generation Artifacts Core 
 
 ### Website
--------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 https://application-ui-ux.github.io/mobile_message_generation_artifacts_core/target/site/index.html
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
 
 Updated Version [mobile_message_generation_artifacts_core](https://github.com/application-ui-ux/mobile_message_generation_artifacts_core) readme.
 Older Version [rosjava_messages](https://github.com/rosjava/rosjava_messages) readme.
 
 This package is a generator of rosmobile message artifacts for core ros messages for mobile
 
+
+---------------------------------------------------------------------------------------------------
 ## Important
 The repository has diverged, as the old commits and codes are under the previous License and
 the new commits and codes are under New License
 
--------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
 Latest versions and Maintainer is on Application-UI-UX
 
 ### Building and Packaging
