@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "mobile_message_generation_artifacts_core"
 PROJECT_SPACE_DIR = "/usr/local"
-PROJECT_VERSION = "0.4.0"
+PROJECT_VERSION = "0.4.1"
