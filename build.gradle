@@ -20,8 +20,8 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.0'
-        classpath 'com.github.Application-UI-UX:genmobile:0.4.0'
+        classpath 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.1'
+        classpath 'com.github.Application-UI-UX:genmobile:0.4.1'
     }
 }
 
@@ -33,7 +33,7 @@ plugins {
 allprojects {
     apply plugin: 'maven-publish'
     group 'com.github.Application-UI-UX'
-    version '0.4.0'
+    version '0.4.1'
     repositories {
         maven {
             url = "https://jitpack.io"
@@ -48,8 +48,8 @@ allprojects {
         google()
     }
 //    dependencies {
-//        compile 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.0'
-//        compile 'com.github.Application-UI-UX:genmobile:0.4.0'
+//        compile 'com.github.Application-UI-UX:rosmobile_build_tools:0.4.1'
+//        compile 'com.github.Application-UI-UX:genmobile:0.4.1'
 //    }
 }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>mobile_message_generation_artifacts_core</name>
-  <version>0.4.0</version>
+  <version>0.4.1</version>
   <description>Message generation for rosmobile.</description>
   <url type="website">http://ros.org/wiki/mobile_message_generation_artifacts_core</url>
   <url type="repository">https://github.com/rosmobile/mobile_message_generation_artifacts_core</url>
