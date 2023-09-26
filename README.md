@@ -2,7 +2,7 @@
 
 ### Website
 ---------------------------------------------------------------------------------------------------
-https://application-ui-ux.github.io/mobile_message_generation_artifacts_core/target/site/index.html
+https://application-ui-ux.github.io/mobile_message_generation_artifacts_core
 ---------------------------------------------------------------------------------------------------
 
 
