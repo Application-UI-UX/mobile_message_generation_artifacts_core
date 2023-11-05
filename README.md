@@ -14,7 +14,7 @@
 [![GitHub license](https://img.shields.io/github/license/Application-UI-UX/mobile_message_generation_artifacts_core.svg)](https://github.com/Application-UI-UX/mobile_message_generation_artifacts_core/blob/main/LICENSE)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Application-UI-UX/mobile_message_generation_artifacts_core.svg)](https://github.com/Application-UI-UX/mobile_message_generation_artifacts_core/commits)
-[![Visitor & Github Clones](https://img.shields.io/badge/dynamic/json?color=2e8b57&label=Visitor%20%26%20GitHub%20Clones&query=$.count&url=https://api.github.com/repos/Application-UI-UX/mobile_catkin_gradle_plugins/traffic)](https://github.com/Application-UI-UX/mobile_catkin_gradle_plugins)
+[![Visitor & Github Clones](https://img.shields.io/badge/dynamic/json?color=2e8b57&label=Visitor%20%26%20GitHub%20Clones&query=$.count&url=https://api.github.com/repos/Application-UI-UX/mobile_catkin_gradle_plugins/traffic)](https://github.com/Application-UI-UX/mobile_message_generation_artifacts_core)
 
 
 ### Repository Website
